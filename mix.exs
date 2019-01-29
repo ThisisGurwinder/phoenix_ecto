@@ -44,7 +44,7 @@ defmodule PhoenixEcto.Mixfile do
   defp deps do
     [
       {:phoenix_html, "~> 2.9", optional: true},
-      {:ecto, ">= 0.0.0"},
+      {:ecto,  git: "https://github.com/ThisisGurwinder/ecto.git", branch: "v2.0"},
       {:plug, "~> 1.0"},
       {:ex_doc, ">= 0.0.0", only: :docs}
     ]
